@@ -1,53 +1,50 @@
 {
   "listings": [
     {
-      "id": "1",
-      "description": "heater",
-      "image": "/images/heater.jpg",
-      "location": "BROOKLYN",
-      "favorite": false
-    },
-    {
       "id": "2",
       "description": "2019 Toyota Tacoma grill",
       "image": "/images/toyota-grill.jpg",
       "location": "Williamsburg",
-      "favorite": true
-    },
-    {
-      "id": "3",
-      "description": "Free Braun 3735 Electric Toothbrush charger",
-      "image": "/images/toothbrush-charger.jpg",
-      "location": "Williamsburg",
-      "favorite": false
+      "favorite": true,
+      "favourite": false
     },
     {
       "id": "4",
       "description": "FREE Hundreds of DVD/CD Cases - Different Sizes and Colors",
       "image": "/images/dvd-cases.jpg",
       "location": "Prospect Heights",
-      "favorite": false
-    },
-    {
-      "id": "5",
-      "description": "wood",
-      "image": "/images/wood.jpg",
-      "location": "Greenpoint",
-      "favorite": false
+      "favorite": false,
+      "favourite": false
     },
     {
       "id": "6",
       "description": "Beautiful couch",
       "image": "/images/couch.jpg",
       "location": "Bay Ridge",
-      "favorite": false
+      "favorite": false,
+      "favourite": true
     },
     {
       "id": "7",
       "description": "Treadmill Parts For Free",
       "image": "/images/treadmill.jpg",
       "location": "East Flatbush",
-      "favorite": false
+      "favorite": false,
+      "favourite": false
+    },
+    {
+      "id": "803d",
+      "description": "fridge",
+      "image": "https://www.whirlpool.com/is/image/content/dam/business-unit/whirlpoolv2/en-us/marketing-content/site-assets/page-content/oc-articles/how-do-refrigerators-work/how-do-refrigerators-work_1.jpg?fmt=png-alpha&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&scl=1&constrain=fit,1",
+      "location": "Mississipi",
+      "favourite": false
+    },
+    {
+      "id": "a9c4",
+      "description": "refrigirator",
+      "image": "https://mobileimages.lowes.com/productimages/aa8ab639-2b96-4c68-8b14-9bff65710d21/64450001.jpg",
+      "location": "Dubai",
+      "favourite": false
     }
   ]
 }
