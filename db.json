@@ -48,6 +48,13 @@
       "image": "/images/treadmill.jpg",
       "location": "East Flatbush",
       "favorite": false
+    },
+    {
+      "id": "c0f6",
+      "description": "Laptop",
+      "image": "https://imgs.search.brave.com/bjoHwiYXFXP6Di4axlbYQsDuJQPT4zBwtNI71qtW4cg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI0/MTQ5NjAwNy9waG90/by9hLWhwLXNwZWN0/cmUteDM2MC00ay1v/bGVkLWxhcHRvcC1j/b21wdXRlci10YWtl/bi1vbi1vY3RvYmVy/LTgtMjAyMS5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9bVE3/WjNiclNybW9YSkhH/ZS1VaVlrRk9RMl8x/NFRsNDRoVXJfY0Qt/TFJqWT0",
+      "location": "Nairobi",
+      "favorite": false
     }
   ]
 }
