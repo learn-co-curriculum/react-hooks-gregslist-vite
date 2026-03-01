@@ -1,12 +1,19 @@
-// import ListingCard from "./ListingCard";
+import ListingCard from "./ListingCard";
 
-function ListingsContainer() {
+function ListingsContainer({ listings }) {
   return (
-    <main>
-      <ul className="cards">
-        {/* use the ListingCard component to display listings */}
-      </ul>
-    </main>
+    <ul className="cards">
+      {listings.map((listing) => (
+        <ListingCard
+          key={listing.id}
+          description={listing.description}
+          image={listing.image}
+          location={listing.location}
+          favorite={listing.favorite}
+          price={listing.price}
+        />
+      ))}
+    </ul>
   );
 }
 
