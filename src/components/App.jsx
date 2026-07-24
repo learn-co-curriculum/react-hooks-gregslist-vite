@@ -21,11 +21,17 @@ function App() {
   //define function to add new listing to state
   const addListing = newListing => 
     setListings(previousListings => [...previousListings, newListing])
+
+  //define function to update listing in state
+  const updateListing = updatedListing => {
+    setListings(previousListings => previousListings.map(listing => 
+      listing.id === updatedListing.id ? updatedListing : listing))
+  }
   return (
     <div className="app">
       <Header />
       <ListingForm addListing={addListing} />
-      <ListingsContainer listings={listings}/> 
+      <ListingsContainer listings={listings} updateListing={updateListing} /> 
     </div>
   );
 }

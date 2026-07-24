@@ -5,7 +5,7 @@
       "description": "heater",
       "image": "/images/heater.jpg",
       "location": "BROOKLYN",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "2",
@@ -33,7 +33,7 @@
       "description": "wood",
       "image": "/images/wood.jpg",
       "location": "Greenpoint",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "6",
