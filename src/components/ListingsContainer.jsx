@@ -1,10 +1,11 @@
-// import ListingCard from "./ListingCard";
-
-function ListingsContainer() {
+import ListingCard from "./ListingCard";
+//destructured listings prop from App component
+function ListingsContainer({ listings }) {
   return (
     <main>
       <ul className="cards">
-        {/* use the ListingCard component to display listings */}
+        {listings.map(listing => <ListingCard key={listing.id} {...listing} 
+        />)}
       </ul>
     </main>
   );
