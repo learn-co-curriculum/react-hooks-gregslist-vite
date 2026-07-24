@@ -1,10 +1,10 @@
 import ListingCard from "./ListingCard";
 //destructured listings prop from App component
-function ListingsContainer({ listings }) {
+function ListingsContainer({ listings, updateListing }) {
   return (
     <main>
       <ul className="cards">
-        {listings.map(listing => <ListingCard key={listing.id} {...listing} 
+        {listings.map(listing => <ListingCard key={listing.id} {...listing} updateListing={updateListing} 
         />)}
       </ul>
     </main>
