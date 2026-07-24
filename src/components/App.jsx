@@ -3,6 +3,7 @@ import Header from "./Header";
 import ListingForm from "./ListingForm";
 import ListingsContainer from "./ListingsContainer";
 
+
 function App() {
   const [listings, setListings] = useState([]);
 
@@ -27,11 +28,16 @@ function App() {
     setListings(previousListings => previousListings.map(listing => 
       listing.id === updatedListing.id ? updatedListing : listing))
   }
+  //define function to delete listing from state
+  const deleteListing = deletedListingId => 
+    setListings(previousListings => 
+      previousListings.filter(listing => listing.id !== deletedListingId))
+  
   return (
     <div className="app">
       <Header />
       <ListingForm addListing={addListing} />
-      <ListingsContainer listings={listings} updateListing={updateListing} /> 
+      <ListingsContainer listings={listings} updateListing={updateListing} deleteListing={deleteListing} /> 
     </div>
   );
 }
