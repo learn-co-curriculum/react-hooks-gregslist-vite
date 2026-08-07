@@ -21,11 +21,17 @@ function App() {
   const addListing = (newListing) =>
     setListings((prev) => [...prev, newListing]);
 
+  const updateListing = (updatedListing) =>
+    setListings((prev) =>
+      prev.map((listing) =>
+        listing.id === updatedListing.id ? updatedListing : listing,
+      ),
+    );
   return (
     <div className="app">
       <Header />
       <ListingForm addListing={addListing} />
-      <ListingsContainer listings={listings} />
+      <ListingsContainer listings={listings} updateListing={updateListing} />
     </div>
   );
 }
