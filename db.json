@@ -48,6 +48,27 @@
       "image": "/images/treadmill.jpg",
       "location": "East Flatbush",
       "favorite": false
+    },
+    {
+      "id": "1465",
+      "description": "this is somethig ",
+      "image": "imageurl",
+      "location": "some location",
+      "favorite": false
+    },
+    {
+      "id": "5503",
+      "description": "this is somethig ",
+      "image": "imageurl",
+      "location": "some location",
+      "favorite": false
+    },
+    {
+      "id": "84e2",
+      "description": "water bottle",
+      "image": "image",
+      "location": "kenya east africa",
+      "favorite": false
     }
   ]
 }
