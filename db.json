@@ -5,7 +5,7 @@
       "description": "heater",
       "image": "/images/heater.jpg",
       "location": "BROOKLYN",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "2",
@@ -19,14 +19,14 @@
       "description": "Free Braun 3735 Electric Toothbrush charger",
       "image": "/images/toothbrush-charger.jpg",
       "location": "Williamsburg",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "4",
       "description": "FREE Hundreds of DVD/CD Cases - Different Sizes and Colors",
       "image": "/images/dvd-cases.jpg",
       "location": "Prospect Heights",
-      "favorite": false
+      "favorite": true
     },
     {
       "id": "5",
@@ -47,27 +47,6 @@
       "description": "Treadmill Parts For Free",
       "image": "/images/treadmill.jpg",
       "location": "East Flatbush",
-      "favorite": false
-    },
-    {
-      "id": "1465",
-      "description": "this is somethig ",
-      "image": "imageurl",
-      "location": "some location",
-      "favorite": false
-    },
-    {
-      "id": "5503",
-      "description": "this is somethig ",
-      "image": "imageurl",
-      "location": "some location",
-      "favorite": false
-    },
-    {
-      "id": "84e2",
-      "description": "water bottle",
-      "image": "image",
-      "location": "kenya east africa",
       "favorite": false
     }
   ]
