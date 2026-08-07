@@ -5,6 +5,8 @@ import ListingsContainer from "./ListingsContainer";
 
 function App() {
   const [listings, setListings] = useState([]);
+
+  const [search, setSearch] = useState("");
   //use effect with empty dep array
   useEffect(() => {
     fetch("http://localhost:6001/listings")
@@ -31,12 +33,16 @@ function App() {
   const deleteListing = (deletedId) =>
     setListings((prev) => prev.filter((listing) => listing.id !== deletedId));
 
+  const shownListings = listings.filter((listing) =>
+    listing.description.toLowerCase().includes(search.toLowerCase()),
+  );
+
   return (
     <div className="app">
-      <Header />
+      <Header onSearch={setSearch} />
       <ListingForm addListing={addListing} />
       <ListingsContainer
-        listings={listings}
+        listings={shownListings}
         updateListing={updateListing}
         deleteListing={deleteListing}
       />
